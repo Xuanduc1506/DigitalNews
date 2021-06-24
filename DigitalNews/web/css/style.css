@@ -1,0 +1,85 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 10, 2021, 8:00:42 PM
+    Author     : Admin
+*/
+body
+{
+    font-family:sans-serif;
+    background-color: #E7E7E7;
+
+}
+.page{
+    background-image: url(../img/bg.jpg) ;
+    background-repeat: repeat-y;
+    margin: 0 auto;  
+    /*background-repeat: no-repeat;*/
+    width: 886px;
+    height: auto;
+    /*text-align: center;*/
+    justify-content: center;
+}
+.body{
+    width: 886px;
+    height: auto;
+    display: flex;
+}
+
+.news{
+    padding-left: 80px;
+    left: 0;
+    width: 540px;
+}
+
+.title{
+    color: #737373;
+    font-size: 25px;
+}
+.title a{
+    color: #737373;
+    font-size: 25px;
+}
+
+.horizontal{
+    border-bottom: thick solid #CFCFCF;
+    width: 523px;
+    border-width: 1px;
+}
+.vertical{
+
+    border-right: 1px dotted #CFCFCF;
+    border-width: 2px;
+}
+.pic img{
+    width: 400px;
+}
+.authDate{
+    float: right;
+    padding-right: 13px;
+}
+
+.pagger a{
+    display: inline-block;
+    background: #005598;
+    color: #fff;
+    margin: 0 5px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.pagger a.active{
+    display: inline-block;
+    background: #737373;
+    color: #ffft;
+    margin: 0 5px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
